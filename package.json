@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-imgonload",
+  "version": "1.0.0",
+  "description": "directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anderlu/angularjs-imgonload.git"
+  },
+  "keywords": [
+    "angularjs",
+    "directive"
+  ],
+  "author": "Anderlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderlu/angularjs-imgonload/issues"
+  },
+  "homepage": "https://github.com/anderlu/angularjs-imgonload",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
