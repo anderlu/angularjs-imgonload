@@ -7,7 +7,20 @@
 
     </style>
 </head>
-<body>
+<body ng-app="Demo" ng-controller="ImageOnload">
+<img class="ng-hide" ng-src="{{imageData.src}}" alt="nothing" imageonload="true"/>
+
 <script src="bower_components/angularjs/angular.js"></script>
+<script src="src/imageOnload.directive.js"></script>
+<script>
+var app =  angular.module('Demo', ['image.onload']);
+app.controller('ImageOnload', ['$scope', '$log', '$window', '$document', function($scope, $log, $window, $document){
+    angular.extend($scope,{
+        imageData:{
+            src:'http://dn-skypixel-image-2.qbox.me/uploads/newphotos/9eb162dd2a97787d07dee7e1db0ab67e/1024x1024'
+        }
+    });
+}]);
+</script>
 </body>
 </html>
